@@ -1,14 +1,10 @@
 
 /*
-Version 1
 Author: Harshvardhan Gaggar
 Language: C 
 Time Spent: 1 hr
+Version: 1
 
-Code Improvements:
-    - Use file to save database of library
-    - Count no of books currently in library(total books - issued books)
-    - add functions to search for a particular book and display all of its info
 */
 
 #include <stdio.h>
