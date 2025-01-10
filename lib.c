@@ -1,10 +1,25 @@
 
 /*
-Author: Harshvardhan Gaggar
+Author: Harsh
 Language: C 
-Time Spent: 1 hr
 Version: 1
 
+This code can perform the following task:
+     1. Add book information
+     2. Display book information
+     3. List all books of a given author
+     4. List the title of a specific book
+     5. List the count of books in the library
+     6. List the books in the order of accession number
+     
+We have defined a struct called lib which stores the record of books with its accession number, title, author, price and flag(0- if its in lib, 1 if issued)
+We also made use of the quick sort function to sort the structure in order of accession number  
+
+Code Improvements in upcoming versions:
+    - Use file to save database of library
+    - Count no of books currently in library(total books - issued books)
+    - Add functions to search for a particular book and display all of its info    
+    - Calculate the cost of the library and determine an appropriate joining fee
 */
 
 #include <stdio.h>
